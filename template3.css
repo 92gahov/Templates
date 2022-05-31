@@ -1,0 +1,384 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navCont {
+    position: relative;
+    background-color: black;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    padding-top: 28px;
+    transition: 0.6s;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+.navCont ul {
+    list-style-type: none;
+}
+
+.navCont a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 8px 8px 20px 50px;
+    font-size: 20px;
+}
+
+.navCont a:hover {
+    color: #c3c4c7;
+}
+
+.navCont span {
+    position: absolute;
+    top: 0;
+    right: 8px;
+    color: white;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.navCont span:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.top-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links-main {
+    margin-top: 24px;
+    width: 70px;
+}
+
+.links-main:hover {
+    cursor: pointer;
+}
+
+.links-main:hover>div {
+    width: 46px;
+}
+
+.hamburgerMenu {
+    width: 34px;
+    height: 4px;
+    background-color: #2c3338;
+    margin: 5px auto 0 auto;
+    transition: 0.6s;
+}
+
+.info {
+    position: relative;
+}
+
+.info-top {
+    text-align: center;
+    background-color: #1d2327;
+    height: 320px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.info-top h2 {
+    font-size: 30px;
+}
+
+.info-top h2:first-child {
+    color: #dba617;
+}
+
+.info-top h2:nth-child(2) {
+    color: white;
+    letter-spacing: 3px;
+}
+
+.info-cont {
+    display: flex;
+    justify-content: space-around;
+    background-color: #dba617;
+    padding: 0 30px 26px 30px;
+}
+
+.taxi-img {
+    position: absolute;
+    top: 140px;
+    left: 340px;
+}
+
+.txt {
+    margin-top: 94px;
+    width: 500px;
+}
+
+.txt h3 {
+    font-size: 26px;
+}
+
+.txt p {
+    font-size: 20px;
+}
+
+.txt button {
+    font-size: 18px;
+    padding: 8px;
+    width: 100px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.txt button:hover {
+    color: black;
+    background-color: #c3c4c7;
+    cursor: pointer;
+}
+
+.contacts {
+    background-color: #1d2327;
+    width: 406px;
+    height: 300px;
+    padding: 18px;
+    margin-top: 114px;
+}
+
+.contacts input[type=text] {
+    width: 384px;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+.contacts input[type=tel] {
+    width: 384px;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+.contacts input[type=submit] {
+    font-size: 18px;
+    padding: 6px;
+    width: 90px;
+    margin-top: 8px;
+    background-color: #dcdcde;
+    border: none;
+}
+
+.contacts input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #50575e;
+    color: white;
+}
+
+.contacts textarea {
+    resize: none;
+}
+
+.more_info {
+    display: flex;
+    justify-content: space-around;
+    padding: 46px 0;
+}
+
+.more_info h3 {
+    font-size: 22px;
+}
+
+.more_info>div {
+    width: 300px;
+    text-align: center;
+}
+
+.wish {
+    text-align: center;
+}
+
+.wish p {
+    font-size: 24px;
+    color: white;
+}
+
+.wish h2 {
+    font-size: 38px;
+    color: white;
+}
+
+.sugg-main {
+    padding: 26px 40px;
+    background: url("img3/night-city-city-lights-cars-traffic-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sugg-main h3 {
+    font-size: 24px;
+    color: #dba617;
+}
+
+.sugg-main p {
+    font-size: 18px;
+    color: white;
+    font-family: 'Fjalla One';
+    letter-spacing: 1px;
+}
+
+.sug-one {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sug-one>div {
+    width: 300px;
+}
+
+.sugg_two {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sugg_two>div {
+    width: 300px;
+}
+
+.end {
+    text-align: center;
+    background-color: #dba617;
+    padding: 30px 0;
+}
+
+.end h2 {
+    font-size: 30px;
+}
+
+.pay {
+    background-color: #1d2327;
+    padding: 8px 0 0 0;
+}
+
+.pay h2 {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+}
+
+.pay-info {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    border-bottom: 2px solid #a7aaad;
+}
+
+.pay-info h3 {
+    font-size: 26px;
+    color: white;
+}
+
+.pay-info p {
+    font-size: 20px;
+    color: #a7aaad;
+}
+
+.pay-info>div {
+    width: 460px;
+}
+
+.social {
+    background-color: #1d2327;
+    text-align: center;
+    padding-top: 22px;
+}
+
+.social a {
+    margin: 0 8px;
+}
+
+.social img {
+    opacity: 0.6;
+}
+
+.social img:hover {
+    opacity: 1;
+}
+
+.author {
+    padding-top: 6px;
+    padding-bottom: 2px;
+}
+
+.author p {
+    font-size: 20px;
+    color: white;
+}
+
+.author a {
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .taxi-img img {
+        width: 300px;
+        height: 160px;
+    }
+
+    .taxi-img {
+        left: 100px;
+    }
+
+    .info-top {
+        height: 200px;
+    }
+
+    .info-cont {
+        display: block;
+        padding-top: 6px;
+    }
+
+    .txt {
+        width: 100%;
+    }
+
+    .contacts {
+        margin-left: -10px;
+        margin-top: 26px;
+    }
+
+    .more_info {
+        display: block;
+    }
+
+    .more_info>div {
+        margin: 0 auto;
+    }
+
+    .sug-one {
+        display: block;
+    }
+
+    .sug-one>div {
+        margin: 0 auto;
+    }
+
+    .sugg_two {
+        display: block;
+    }
+
+    .sugg_two>div {
+        margin: 0 auto;
+    }
+
+    .pay-info {
+        display: block;
+    }
+
+    .pay-info>div {
+        width: 100%;
+    }
+}

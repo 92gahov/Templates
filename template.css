@@ -1,0 +1,281 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navCont {
+    position: relative;
+    background-color: black;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    padding-top: 28px;
+    transition: 0.6s;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+.navCont ul {
+    list-style-type: none;
+}
+
+.navCont a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 8px 8px 20px 30px;
+    font-size: 20px;
+}
+
+.navCont a:hover {
+    color: #c3c4c7;
+}
+
+.navCont span {
+    position: absolute;
+    top: 0;
+    right: 8px;
+    color: white;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.navCont span:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.topNav {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    height: 40px;
+}
+
+.hamburgerMenuButton {
+    cursor: pointer;
+}
+
+.hamburgerMenu {
+    width: 34px;
+    height: 4px;
+    background-color: #2c3338;
+    margin: 5px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.first div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first div>h1 {
+    font-family: 'Audiowide';
+    font-size: 60px;
+}
+
+.first div>img {
+    border-radius: 50%;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding-bottom: 46px;
+}
+
+.TextF {
+    width: 760px;
+    text-align: center;
+}
+
+.TextF h2 {
+    font-family: 'Azeret Mono';
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.TextF p {
+    font-family: 'Azeret Mono';
+    line-height: 26px;
+}
+
+.TextF button {
+    font-size: 18px;
+    background-color: #ff8085;
+    color: black;
+    font-family: 'Azeret Mono';
+    padding: 10px;
+    width: 260px;
+    border: none;
+    margin-top: 16px;
+}
+
+.TextF button:hover {
+    cursor: pointer;
+    background-color: #f86368;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #dcdcde;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.TextSM {
+    width: 50%;
+}
+
+.img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    border-radius: 50%;
+}
+
+.socialMedia {
+    text-align: center;
+    width: 600px;
+}
+
+.socialMedia h3 {
+    font-family: 'Azeret Mono';
+    font-size: 26px;
+}
+
+.socialMedia img {
+    margin-right: 10px;
+}
+
+.TextS {
+    width: 600px;
+    margin-top: 60px;
+}
+
+.TextS p {
+    font-family: 'Azeret Mono';
+    line-height: 26px;
+}
+
+.secondButton {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.secondButton button {
+    font-size: 18px;
+    background-color: #ff8085;
+    color: black;
+    font-family: 'Azeret Mono';
+    padding: 10px;
+    width: 260px;
+    border: none;
+}
+
+.secondButton button:hover {
+    cursor: pointer;
+    background-color: #f86368;
+}
+
+.forth {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 42px;
+    padding-bottom: 44px;
+    position: relative;
+}
+
+.contact {
+    width: 440px;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dcdcde;
+    border-radius: 50%;
+    padding: 76px;
+    text-align: center;
+}
+
+.contact span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact h3 {
+    font-size: 28px;
+    font-family: 'Azeret Mono';
+}
+
+.contact p {
+    font-family: 'Azeret Mono';
+    font-size: 16px;
+}
+
+.contactImgL {
+    position: absolute;
+    top: 40px;
+    left: 120px;
+}
+
+.contactImgL img {
+    border-radius: 50%;
+}
+
+.contactImgR {
+    position: absolute;
+    top: 310px;
+    right: 134px;
+}
+
+.contactImgR img {
+    border-radius: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #2c3338;
+    height: 150px;
+}
+
+footer p {
+    font-family: 'Azeret Mono';
+    font-size: 14px;
+    color: white;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #c3c4c7;
+}

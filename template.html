@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="template.css">
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Azeret Mono' rel='stylesheet'>
+    <title>Template</title>
+</head>
+
+<body id="body">
+    <nav class="navCont" id="navCont">
+        <span id="closeNav">&times;</span>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </nav>
+    <main>
+        <nav class="topNav">
+            <div class="hamburgerMenuButton" id="navButton">
+                <div class="hamburgerMenu"></div>
+                <div class="hamburgerMenu"></div>
+                <div class="hamburgerMenu"></div>
+            </div>
+        </nav>
+        <section class="first">
+            <div>
+                <h1>The good ritual</h1>
+            </div>
+            <div>
+                <img src="img/relax-card.jpg" width="430" height="430">
+            </div>
+        </section>
+        <section class="second">
+            <div class="TextF">
+                <div>
+                    <h2>Dolor magna eget est</h2>
+                    <p>Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. A lacus vestibulum sed
+                        arcu non. Dolor magna eget est lorem ipsum dolor sit amet consectetur. Mauris pellentesque
+                        pulvinar
+                        pellentesque habitant morbi tristique senectus. Nec feugiat nisl pretium fusce id. Justo laoreet
+                        sit
+                        amet cursus sit amet. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero.
+                    </p>
+                </div>
+                <div>
+                    <button type="button">Read more</button>
+                </div>
+            </div>
+        </section>
+        <section class="third">
+            <div class="img">
+                <img src="img/c-fakepath-u0441-u043f-u0430-u0435-u0442-u0438-u043a-u0435-u0442.jpg" width="450"
+                    height="450">
+            </div>
+            <div class="TextSM">
+                <div class="socialMedia">
+                    <a href="#"><img src="img/Black-facebook-icon-on-transparent-background-PNG.png" width="30"
+                            height="30"></a>
+                    <a href="#"><img src="img/NicePng_twitter-bird-png_95730.png" width="30" height="30"></a>
+                    <a href="#"><img src="img/clipart2569207.png" width="30" height="30"></a>
+                    <h3>Yoga Studio</h3>
+                </div>
+                <div class="TextS">
+                    <p>During these years we have reached the leading position on the Estonian market and were able to
+                        significantly increase the range of our services. Advances of the market and demand for stricter
+                        regulation of activities of businesses resulted in the increased demand for legal, financial and
+                        tax advice related to registration of companies abroad, their administration, accounting support
+                        and capital protection.</p>
+                    <div class="secondButton">
+                        <button type="button">Read more</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="forth">
+            <div class="contactImgL">
+                <img src="img/istockphoto-1149756625-612x612.jpg" width="240" height="240">
+            </div>
+            <div class="contact">
+                <div>
+                    <div>
+                        <img src="img/Outlined-Phone-Icon-png-hd.png" width="16" height="16">
+                        <span>+1 (234) 567-8910</span>
+                    </div>
+                    <div>
+                        <h3>Location</h3>
+                    </div>
+                    <div>
+                        <p>121 Rock Sreet, 21 Avenue,<br>
+                            New York, NY 92103-9000</p>
+                    </div>
+                    <div>
+                        <p>Sample text. Click to select the text box. Click again or double click to start editing the
+                            text.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactImgR">
+                <img src="img/hotel-augusta-hisarya-SPA-RITUAL.jpg" width="310" height="310">
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div>
+            <p>Website Template created by <a href="#">G.Gahov</a></p>
+        </div>
+    </footer>
+
+    <script>
+        let navButton = document.getElementById("navButton");
+        let navCont = document.getElementById("navCont");
+        let closeNav = document.getElementById("closeNav");
+        let body = document.getElementById("body");
+        navButton.addEventListener("click", function (e) {
+            navCont.style.width = "220px";
+            e.stopPropagation();
+        })
+        closeNav.addEventListener("click", function (e) {
+            navCont.style.width = "0px";
+            e.stopPropagation();
+        })
+        body.addEventListener("click", function () {
+            navCont.style.width = "0px";
+        })
+        navCont.addEventListener("click", function (e) {
+            navCont.style.width = "220px";
+            e.stopPropagation();
+        })
+    </script>
+</body>
+
+</html>

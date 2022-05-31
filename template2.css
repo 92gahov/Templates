@@ -1,0 +1,747 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sticky-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 0px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background-color: black;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.sticky-menu {
+    width: 50%;
+}
+
+.sticky-menu ul {
+    display: flex;
+    justify-content: start;
+    list-style-type: none;
+    margin-top: 22px;
+}
+
+.sticky-menu li {
+    display: block;
+    margin-left: 60px;
+    padding: 6px;
+}
+
+.sticky-menu a {
+    font-size: 20px;
+    font-family: 'Adamina';
+    color: white;
+    text-decoration: none;
+}
+
+.sticky-menu a:hover {
+    color: #dcdcde;
+}
+
+.sticky-search {
+    width: 50%;
+    text-align: center;
+    font-family: 'Adamina';
+    margin-top: 24px;
+}
+
+.sticky-search input[type=text] {
+    border: 1px solid black;
+    width: 240px;
+    font-size: 18px;
+    height: 28px;
+    padding: 2px;
+}
+
+.sticky-search input[type=submit] {
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 4px;
+    height: 36px;
+    border-left: none;
+    color: white;
+    background-color: #2271b1;
+    margin-left: -4px;
+}
+
+.sticky-search input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #0a4b78;
+}
+
+/*-----------------------------------------*/
+.header-main {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    background-color: #c3c4c7;
+}
+
+.header-main-img {
+    width: 51%;
+}
+
+.header-main-img img {
+    margin-left: 70px;
+}
+
+.header-search {
+    width: 39%;
+    text-align: center;
+    font-family: 'Adamina';
+    background-color: white;
+}
+
+.headar-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headar-nav ul:first-child {
+    margin-left: -40px;
+}
+
+.headar-nav a {
+    color: #135e96;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.headar-nav a:hover {
+    text-decoration: underline;
+    color: #0a4b78;
+    text-shadow: 0 0 40px #0a4b78, 0 0 50px #0a4b78, 0 0 70px #0a4b78, 0 0 100px #0a4b78;
+}
+
+.header-search input[type=text] {
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 300px;
+    height: 24px;
+    margin-top: 10px;
+}
+
+.header-search input[type=submit] {
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: #135e96;
+    font-size: 20px;
+    padding: 4px;
+    margin-top: 6px;
+}
+
+.header-search input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #1d2327;
+}
+
+.heading {
+    margin-top: 20px;
+    padding: 4px;
+}
+
+.heading h1 {
+    font-size: 48px;
+    color: #135e96;
+    letter-spacing: 3px;
+}
+
+.start button {
+    background-color: #135e96;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.start button:hover {
+    cursor: pointer;
+    background-color: #1d2327;
+}
+
+.header-nav-search {
+    height: 150px;
+    width: 100%;
+    padding-bottom: 4px;
+    padding-top: 6px;
+}
+
+
+/*----------------------------------*/
+.second-heading {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.second-heading h2, h3 {
+    font-family: 'Adamina';
+}
+
+.second-heading h2 {
+    font-size: 38px;
+    letter-spacing: 3px;
+    color: #135e96;
+}
+
+.second-heading h3 {
+    margin-top: -14px;
+}
+
+/*-------------------------------*/
+.info-main-f {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 56px;
+}
+
+.info-main-left, .info-main-right {
+    width: 400px;
+    font-family: 'Adamina';
+}
+
+.info-main-left {
+    margin-left: 80px;
+}
+
+.info-main-right {
+    margin-right: 60px;
+}
+
+.info-main-f h2 {
+    color: #135e96;
+}
+
+.info-main-s {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+}
+
+.info-main-s h2 {
+    color: #135e96;
+}
+
+.info-main-t {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.info-main-t h2 {
+    color: #135e96;
+}
+
+/*---------------------------------*/
+.fast-hosting {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 680px;
+    margin-top: 56px;
+}
+
+.fast-hosting-text {
+    background-color: #c3c4c7;
+    padding: 50px 30px;
+    font-family: 'Adamina';
+    width: 360px;
+    height: 320px;
+    position: absolute;
+    z-index: 3;
+    top: 180px;
+    left: 130px;
+}
+
+.fast-hosting-text h2 {
+    font-size: 26px;
+    color: #135e96;
+    letter-spacing: 2px;
+}
+
+.fast-hosting-text button {
+    background-color: #135e96;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.fast-hosting-text button:hover {
+    cursor: pointer;
+    background-color: #1d2327;
+}
+
+.fast-hosting-img {
+    margin-left: 350px;
+    z-index: 2;
+}
+
+.full-circle {
+    width: 260px;
+    height: 260px;
+    background-color: #135e96;
+    border-radius: 50%;
+    position: absolute;
+    top: 340px;
+    right: 140px;
+}
+
+/*--------------------------------------*/
+.help-solving {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Adamina';
+    margin-top: 16px;
+    width: 100%;
+    height: 180px;
+}
+
+.help-heading, .help-text {
+    width: 420px;
+}
+
+.help-heading {
+    border-bottom: 6px solid #135e96;
+}
+
+.help-heading h2 {
+    font-size: 38px;
+    color: #135e96;
+}
+
+.help-text {
+    padding-top: 8px;
+}
+
+.help-text p {
+    margin-bottom: 20px;
+}
+
+.help-text a {
+    background-color: #135e96;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 8px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: 'Adamina';
+}
+
+.help-text a:hover {
+    background-color: #1d2327;
+}
+
+/*--------------------------------*/
+.columns-main {
+    width: 100%;
+    margin-top: 42px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.column {
+    width: 300px;
+    font-family: 'Adamina';
+    transition: 0.4s;
+    padding: 8px;
+}
+
+.column h3 {
+    color: #135e96;
+}
+
+.column:hover {
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 10px 20px;
+}
+
+/*--------------------------------------------*/
+.middle-main {
+    margin-top: 44px;
+    width: 100%;
+    height: 960px;
+    background-color: #c3c4c7;
+    position: relative;
+}
+
+.middle-img {
+    height: 1100px;
+}
+
+.middle-img img {
+    margin-left: 320px;
+    margin-top: 230px;
+}
+
+.first-middle-text, .second-middle-text {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Adamina';
+    width: 590px;
+    height: 300px;
+    position: absolute;
+    display: none;
+}
+
+.first-middle-text {
+    top: 50px;
+    left: 100px;
+    z-index: 1;
+    animation: show 1s;
+}
+
+@keyframes show {
+    from {
+        top: 0;
+        opacity: 0.4;
+    }
+
+    to {
+        top: 50px;
+        opacity: 1;
+    }
+}
+
+.second-middle-text {
+    top: 346px;
+    left: 100px;
+    z-index: 2;
+    animation: show2 1.3s;
+}
+
+@keyframes show2 {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 346px;
+    }
+}
+
+.middle-cont {
+    background-color: white;
+    width: 240px;
+    height: 240px;
+    padding: 16px;
+    text-align: center;
+}
+
+.middle-cont h2 {
+    font-size: 36px;
+    color: #135e96;
+}
+
+.middle-cont a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition: 0.4s;
+    font-weight: bold;
+    border-bottom: 2px solid #135e96;
+}
+
+.middle-cont a:hover {
+    letter-spacing: 2px;
+}
+
+/*----------------------------------*/
+.accordion {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.accordion-heading {
+    width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 46px;
+    font-family: 'Adamina';
+    text-align: center;
+}
+
+.accordion-heading h2 {
+    font-size: 34px;
+    color: #135e96;
+    letter-spacing: 3px;
+}
+
+.accordion-main {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.accordion-button {
+    position: relative;
+    border-bottom: 2px solid #c3c4c7;
+    padding: 6px;
+    transition: 0.3s;
+    margin-top: 18px;
+}
+
+.accordion-button:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.accordion-button span:nth-child(1) {
+    font-family: 'Adamina';
+    font-weight: bold;
+}
+
+.accordion-button span:nth-child(2) {
+    position: absolute;
+    right: 20px;
+    top: 2px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.accordion-text {
+    font-family: 'Adamina';
+    padding: 6px;
+    height: 0px;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+/*----------------------------*/
+.price-main {
+    width: 100%;
+    font-family: 'Adamina';
+    background-color: #c3c4c7;
+    margin-top: 60px;
+    padding-top: 12px;
+    padding-bottom: 40px;
+}
+
+.price-cont {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.price-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.price-heading h2 {
+    font-size: 30px;
+    color: #135e96;
+}
+
+.price-columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-column, .second-column {
+    width: 240px;
+    padding: 10px;
+}
+
+.first-column {
+    background-color: #135e96;
+    color: #c5d9ed;
+    letter-spacing: 2px;
+}
+
+.second-column {
+    background-color: white;
+    text-align: center;
+}
+
+.second-column h2 {
+    font-size: 36px;
+    color: #135e96;
+}
+
+.second-column button {
+    background-color: #135e96;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    letter-spacing: 1px;
+}
+
+.second-column button:hover {
+    cursor: pointer;
+    background-color: #1d2327;
+}
+
+/*----------------------------------------*/
+.contact-main {
+    width: 100%;
+    padding-top: 60px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info {
+    font-family: 'Adamina';
+    padding: 32px 60px;
+    width: 360px;
+    background-color: #c3c4c7;
+    position: relative;
+}
+
+.contact-info h2 {
+    font-size: 34px;
+    color: #135e96;
+}
+
+.contact-cont {
+    width: 300px;
+    position: absolute;
+    top: 36px;
+    animation: contact 1.3s;
+    display: none;
+}
+
+.contact-cont a {
+    text-decoration: none;
+    color: #135e96;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.contact-cont a:hover {
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+@keyframes contact {
+    from {
+        top: -24px;
+        opacity: 0;
+    }
+
+    to {
+        top: 36px;
+        opacity: 1;
+    }
+}
+
+.contact-form {
+    font-family: 'Adamina';
+    padding: 22px 60px;
+    width: 360px;
+    ;
+    background-color: #c3c4c7;
+}
+
+.contact-form input[type=text] {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 340px;
+    margin-bottom: 8px;
+}
+
+.contact-form textarea {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 16px;
+    resize: none;
+}
+
+.send-message {
+    text-align: center;
+}
+
+.send-message input {
+    background-color: #135e96;
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 90px;
+    border-radius: 6px;
+    padding: 8px;
+    letter-spacing: 1px;
+}
+
+.send-message input:hover {
+    cursor: pointer;
+    background-color: #1d2327;
+}
+
+/*---------------------------*/
+footer {
+    background-color: black;
+    font-family: 'Adamina';
+    width: 100%;
+    text-align: center;
+    margin-top: 62px;
+    padding-top: 12px;
+}
+
+.footer-info {
+    width: 57%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-info p {
+    color: white;
+    line-height: 24px;
+}
+
+.social-media {
+    margin-top: 34px;
+    margin-bottom: 12px;
+}
+
+.social-media img {
+    margin-right: 20px;
+}
+
+.social-media img:hover {
+    opacity: 0.6;
+}
+
+.author {
+    text-align: right;
+    padding: 2px 22px;
+}
+
+.author p {
+    font-family: 'Adamina';
+    color: white;
+}
+
+.author a {
+    color: #72aee6;
+    font-weight: bold;
+}
